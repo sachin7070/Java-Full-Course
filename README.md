@@ -62,20 +62,20 @@ class Company {
 ###  Data Types in Java
 Java has two main categories of data types: Primitive Data Types and Non-Primitive (Reference) Data Types.
 
-Primitive Data Types
+#### Primitive Data Types
 Primitive data types are predefined by Java and serve as the building blocks of data manipulation. There are 8 primitive data types in Java.
 
-Data Type	Size	Default Value	Description
-byte	1 byte	0	Stores whole numbers from -128 to 127
-short	2 bytes	0	Stores whole numbers from -32,768 to 32,767
-int	4 bytes	0	Stores whole numbers from -2^31 to 2^31-1
-long	8 bytes	0L	Stores whole numbers from -2^63 to 2^63-1
-float	4 bytes	0.0f	Stores fractional numbers. Sufficient for 6 to 7 decimal digits
-double	8 bytes	0.0d	Stores fractional numbers. Sufficient for 15 decimal digits
-boolean	1 bit	false	Stores true or false values
-char	2 bytes	'\u0000'	Stores a single 16-bit Unicode character
+| Data      | Type	Size	Default Value	Description
+| byte	    | 1 byte	      0	        Stores whole numbers from -128 to 127
+|short      | 2 bytes	      0     	Stores whole numbers from -32,768 to 32,767
+|int	    | 4 bytes	      0      	Stores whole numbers from -2^31 to 2^31-1
+|long	 8 bytes	      0L	    Stores whole numbers from -2^63 to 2^63-1
+|float	 4 bytes	     0.0f    	Stores fractional numbers. Sufficient for 6 to 7 decimal digits
+|double	 8 bytes	    0.0d	    Stores fractional numbers. Sufficient for 15 decimal digits
+|boolean	 1 bit	        false	    Stores true or false values
+|char	 2 bytes	   '\u0000'	    Stores a single 16-bit Unicode character
 Syntax:
-java
+```java
 Copy code
 dataType variableName = value;
 Example:
@@ -104,24 +104,24 @@ It cannot start with a digit.
 It should be meaningful, avoiding single letters unless for temporary use.
 Java is case-sensitive, so age and Age are different variables.
 Example:
-java
-Copy code
+```java
 int $age = 30;
 String _name = "Alice";
+```
 4. Type Casting
 Type casting refers to converting a variable from one data type to another. There are two types:
 
 Implicit (Automatic) Casting: Smaller data types are automatically converted to larger ones.
 
 Example:
-java
-Copy code
+```java
 int a = 10;
 double b = a; // int to double (automatic conversion)
+```
 Explicit (Manual) Casting: Larger data types are converted to smaller ones manually.
 
 Example:
-java
-Copy code
+```java
 double x = 9.7;
 int y = (int) x; // double to int (manual casting)
+```
