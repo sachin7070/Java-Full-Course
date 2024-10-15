@@ -65,38 +65,40 @@ Java has two main categories of data types: Primitive Data Types and Non-Primiti
 #### Primitive Data Types
 Primitive data types are predefined by Java and serve as the building blocks of data manipulation. There are 8 primitive data types in Java.
 
-| Data      | Type	Size	Default Value	Description
-| byte	    | 1 byte	      0	        Stores whole numbers from -128 to 127
-|short      | 2 bytes	      0     	Stores whole numbers from -32,768 to 32,767
-|int	    | 4 bytes	      0      	Stores whole numbers from -2^31 to 2^31-1
-|long	 8 bytes	      0L	    Stores whole numbers from -2^63 to 2^63-1
-|float	 4 bytes	     0.0f    	Stores fractional numbers. Sufficient for 6 to 7 decimal digits
-|double	 8 bytes	    0.0d	    Stores fractional numbers. Sufficient for 15 decimal digits
-|boolean	 1 bit	        false	    Stores true or false values
-|char	 2 bytes	   '\u0000'	    Stores a single 16-bit Unicode character
+| Data    | Type    | Size      | Default Value | Description                                                     |
+|---------|---------|-----------|---------------|-----------------------------------------------------------------|
+| `byte`  | Primitive | 1 byte  | 0             | Stores whole numbers from -128 to 127                           |
+| `short` | Primitive | 2 bytes | 0             | Stores whole numbers from -32,768 to 32,767                     |
+| `int`   | Primitive | 4 bytes | 0             | Stores whole numbers from -2<sup>31</sup> to 2<sup>31</sup>-1   |
+| `long`  | Primitive | 8 bytes | 0L            | Stores whole numbers from -2<sup>63</sup> to 2<sup>63</sup>-1   |
+| `float` | Primitive | 4 bytes | 0.0f          | Stores fractional numbers. Sufficient for 6 to 7 decimal digits |
+| `double`| Primitive | 8 bytes | 0.0d          | Stores fractional numbers. Sufficient for 15 decimal digits     |
+| `boolean`| Primitive| 1 bit   | false         | Stores true or false values                                     |
+| `char`  | Primitive | 2 bytes | '\u0000'      | Stores a single 16-bit Unicode character                        |
+
 Syntax:
 ```java
-Copy code
 dataType variableName = value;
+```
 Example:
-java
-Copy code
+```java
 int num = 100;        // int data type
 float temperature = 36.6f; // float data type (suffix 'f' is required)
 boolean isJavaFun = true;  // boolean data type
 char grade = 'A';     // char data type
-2.2 Non-Primitive (Reference) Data Types
+```
+#### Non-Primitive (Reference) Data Types
 Non-primitive data types (also known as reference types) refer to objects and can be used to call methods to perform certain operations. These types include classes, arrays, and interfaces.
 
 String: Represents sequences of characters.
 Arrays: Stores multiple values of the same type.
 Classes: Defines objects and their attributes/methods.
 Example:
-java
-Copy code
+```java
 String greeting = "Hello, World!"; // String reference type
 int[] numbers = {1, 2, 3, 4, 5};   // Array reference type
-3. Variable Naming Rules
+```
+#### Variable Naming Rules
 When naming a variable in Java, there are a few rules to follow:
 
 The name must begin with a letter, dollar sign ($), or an underscore (_).
