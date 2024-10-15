@@ -26,43 +26,43 @@ Java is a high-level, object-oriented programming language developed by Sun Micr
 A variable is a container that holds data during the execution of a program. Each variable must be assigned a data type before it can be used. Variables store data that can be modified and reused later in the code.
 
 Syntax:
-java
-Copy code
+```java
 dataType variableName = value;
+```
 Example:
-java
-Copy code
+```java
 int age = 25;       // 'age' is a variable of type int holding the value 25
 String name = "John"; // 'name' is a variable of type String holding the value "John"
-Types of Variables:
-Local Variables: Declared inside methods, constructors, or blocks and only accessible within that scope.
+```
+### Types of Variables:
+#### Local Variables: Declared inside methods, constructors, or blocks and only accessible within that scope.
 
 Example:
-java
-Copy code
+```java
 public void show() {
     int x = 10; // local variable, only accessible within this method
 }
-Instance Variables: Declared inside a class but outside methods, constructors, or blocks. They belong to an instance of the class.
+```
+#### Instance Variables: Declared inside a class but outside methods, constructors, or blocks. They belong to an instance of the class.
 
 Example:
-java
-Copy code
+```java
 class Person {
     String name; // instance variable
 }
-Static Variables: Declared with the static keyword inside a class but outside methods. They are shared among all instances of the class.
+```
+#### Static Variables: Declared with the static keyword inside a class but outside methods. They are shared among all instances of the class.
 
 Example:
-java
-Copy code
+```java
 class Company {
     static String companyName = "TechCorp"; // static variable shared by all objects
 }
-2. Data Types in Java
+```
+###  Data Types in Java
 Java has two main categories of data types: Primitive Data Types and Non-Primitive (Reference) Data Types.
 
-2.1 Primitive Data Types
+Primitive Data Types
 Primitive data types are predefined by Java and serve as the building blocks of data manipulation. There are 8 primitive data types in Java.
 
 Data Type	Size	Default Value	Description
