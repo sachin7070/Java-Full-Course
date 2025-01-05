@@ -313,6 +313,8 @@ int a = 10, b = 20;
 int max = (a > b) ? a : b;
 System.out.println(max); // Output: 20
 ```
+
+
 ## 5.Conditional Statements
 
 Conditional statements in Java allow you to control the flow of your program based on certain conditions. The primary conditional statements in Java are `if`, `if-else`, and nested `if-else`.
