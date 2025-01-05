@@ -54,19 +54,6 @@ Flowcharts and pseudocode are tools that help in visualizing and planning algori
 #### Definition:
 A variable is a container that holds data during the execution of a program. Each variable must be assigned a data type before it can be used. Variables store data that can be modified and reused later in the code.
 
-**Syntax:**
-```java
-dataType variableName = value;
-
-
-## 1.Introduction to Java
-Java is a high-level, object-oriented programming language developed by Sun Microsystems in 1995 (now owned by Oracle). Known for its platform independence, Java allows developers to "write once, run anywhere" through the use of the Java Virtual Machine (JVM). It is widely used for building everything from web and mobile applications to large-scale enterprise systems.
-
-## 2.Varibale And Data Types
-### 1. Variables in Java
-#### Definition:
-A variable is a container that holds data during the execution of a program. Each variable must be assigned a data type before it can be used. Variables store data that can be modified and reused later in the code.
-
 Syntax:
 ```java
 dataType variableName = value;
