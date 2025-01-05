@@ -4,9 +4,9 @@ Welcome to the comprehensive **Java** course! In this course, you will learn eve
 
 ## Table of Contents 📝
 
-1. [Introduction to Java 📢](#1-introduction-to-java)  
+1. [Introduction to Java](#1-introduction-to-java)  
 2. [Flowcharts and Pseudocode](#2-flowcharts-and-pseudocode)  
-3. [Variables and Data Types 🗂️](#3-variables-and-data-types)  
+3. [Variables and Data Types](#3-variables-and-data-types)  
 4. [Operators](#4-operators)  
 5. [Conditional Statements](#5-conditional-statements)  
 6. [Loops (Control Flow)](#6-loops-control-flow)  
@@ -35,7 +35,7 @@ Welcome to the comprehensive **Java** course! In this course, you will learn eve
 
 ---
 
-## 1. Introduction to Java 📢
+## 1. Introduction to Java
 
 Java is a high-level, object-oriented programming language developed by Sun Microsystems in 1995 (now owned by Oracle). Known for its platform independence, Java allows developers to "write once, run anywhere" through the use of the Java Virtual Machine (JVM). It is widely used for building everything from web and mobile applications to large-scale enterprise systems.
 
@@ -47,7 +47,7 @@ Flowcharts and pseudocode are tools that help in visualizing and planning algori
 
 ---
 
-## 3. Variables and Data Types 🗂️
+## 3. Variables and Data Types
 
 ### 1. Variables in Java
 
