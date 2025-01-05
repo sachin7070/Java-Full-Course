@@ -1,4 +1,4 @@
-# Java Full Course
+# Java ♨️ Full Course
 
 Welcome to the comprehensive **Java** course! In this course, you will learn everything you need to know about the Java programming language, from the basics to advanced topics. Each section includes detailed explanations, examples, and outputs to help you understand and practice Java programming effectively.
 
