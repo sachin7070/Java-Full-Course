@@ -4,9 +4,9 @@ Welcome to the comprehensive **Java** course! In this course, you will learn eve
 
 ## Table of Contents 📝
 
-1. [Introduction to Java](#1-introduction-to-java)  
+1. [Introduction to Java 📢](#1-introduction-to-java)  
 2. [Flowcharts and Pseudocode](#2-flowcharts-and-pseudocode)  
-3. [Variables and Data Types](#3-variables-and-data-types)  
+3. [Variables and Data Types 🗂️](#3-variables-and-data-types)  
 4. [Operators](#4-operators)  
 5. [Conditional Statements](#5-conditional-statements)  
 6. [Loops (Control Flow)](#6-loops-control-flow)  
@@ -313,7 +313,7 @@ int a = 10, b = 20;
 int max = (a > b) ? a : b;
 System.out.println(max); // Output: 20
 ```
-## Conditional Statements
+## 5.Conditional Statements
 
 Conditional statements in Java allow you to control the flow of your program based on certain conditions. The primary conditional statements in Java are `if`, `if-else`, and nested `if-else`.
 
