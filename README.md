@@ -64,7 +64,8 @@ int age = 25;       // 'age' is a variable of type int holding the value 25
 String name = "John"; // 'name' is a variable of type String holding the value "John"
 ```
 ### Types of Variables:
-#### Local Variables: Declared inside methods, constructors, or blocks and only accessible within that scope.
+### Local Variables:
+Declared inside methods, constructors, or blocks and only accessible within that scope.
 
 Example:
 ```java
@@ -72,7 +73,8 @@ public void show() {
     int x = 10; // local variable, only accessible within this method
 }
 ```
-#### Instance Variables: Declared inside a class but outside methods, constructors, or blocks. They belong to an instance of the class.
+### Instance Variables:
+Declared inside a class but outside methods, constructors, or blocks. They belong to an instance of the class.
 
 Example:
 ```java
@@ -80,7 +82,8 @@ class Person {
     String name; // instance variable
 }
 ```
-#### Static Variables: Declared with the static keyword inside a class but outside methods. They are shared among all instances of the class.
+### Static Variables: 
+Declared with the static keyword inside a class but outside methods. They are shared among all instances of the class.
 
 Example:
 ```java
@@ -91,7 +94,7 @@ class Company {
 ###  Data Types in Java
 Java has two main categories of data types: Primitive Data Types and Non-Primitive (Reference) Data Types.
 
-#### Primitive Data Types
+### Primitive Data Types
 Primitive data types are predefined by Java and serve as the building blocks of data manipulation. There are 8 primitive data types in Java.
 
 | Data    | Type    | Size      | Default Value | Description                                                     |
@@ -116,7 +119,7 @@ float temperature = 36.6f; // float data type (suffix 'f' is required)
 boolean isJavaFun = true;  // boolean data type
 char grade = 'A';     // char data type
 ```
-#### Non-Primitive (Reference) Data Types
+### Non-Primitive (Reference) Data Types
 Non-primitive data types (also known as reference types) refer to objects and can be used to call methods to perform certain operations. These types include classes, arrays, and interfaces.
 
 String: Represents sequences of characters.
@@ -127,7 +130,7 @@ Example:
 String greeting = "Hello, World!"; // String reference type
 int[] numbers = {1, 2, 3, 4, 5};   // Array reference type
 ```
-#### Variable Naming Rules
+### Variable Naming Rules
 When naming a variable in Java, there are a few rules to follow:
 
 The name must begin with a letter, dollar sign ($), or an underscore (_).
@@ -139,7 +142,7 @@ Example:
 int $age = 30;
 String _name = "Alice";
 ```
-4. Type Casting
+##4. Type Casting
 Type casting refers to converting a variable from one data type to another. There are two types:
 
 Implicit (Automatic) Casting: Smaller data types are automatically converted to larger ones.
