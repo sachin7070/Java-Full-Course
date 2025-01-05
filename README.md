@@ -47,7 +47,7 @@ Flowcharts and pseudocode are tools that help in visualizing and planning algori
 
 ---
 
-## 3. Variables and Data Types
+## 3. Variables and Data Types </>
 
 ### 1. Variables in Java
 
