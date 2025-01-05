@@ -1,21 +1,63 @@
 # Java Full Course
 
-Welcome to the comprehensive C++ course! In this course, you will learn everything you need to know about the C++ programming language, from the basics to advanced topics. Each section includes detailed explanations, examples, and outputs to help you understand and practice C++ programming effectively.
+Welcome to the comprehensive **Java** course! In this course, you will learn everything you need to know about the Java programming language, from the basics to advanced topics. Each section includes detailed explanations, examples, and outputs to help you understand and practice Java programming effectively.
 
 ## Table of Contents
 
-1. [Introduction to java](#1.Intoduction-to-Java)
-2. [Variables and Data Types](#2.Variable-And-Data-Types)
-3. [Operator]
-4. [Conditional Statement]
-5.[loop(Control Flow)]
-6.[Pattern]
-7.[Function And Method]
-8.[Arrays]
-9.[Sorting]
-10.[String]
-11.[Bit Manipulation]
-12.[OOPS]
+1. [Introduction to Java](#1-introduction-to-java)  
+2. [Flowcharts and Pseudocode](#2-flowcharts-and-pseudocode)  
+3. [Variables and Data Types](#3-variables-and-data-types)  
+4. [Operators](#4-operators)  
+5. [Conditional Statements](#5-conditional-statements)  
+6. [Loops (Control Flow)](#6-loops-control-flow)  
+7. [Patterns](#7-patterns)  
+8. [Functions and Methods](#8-functions-and-methods)  
+9. [Arrays](#9-arrays)  
+10. [Sorting](#10-sorting)  
+11. [Strings](#11-strings)  
+12. [Bit Manipulation](#12-bit-manipulation)  
+13. [Object-Oriented Programming (OOP)](#13-object-oriented-programming-oop)  
+14. [Recursion](#14-recursion)  
+15. [Divide and Conquer](#15-divide-and-conquer)  
+16. [Time Complexity](#16-time-complexity)  
+17. [Backtracking](#17-backtracking)  
+18. [ArrayLists](#18-arraylists)  
+19. [Linked Lists](#19-linked-lists)  
+20. [Stacks](#20-stacks)  
+21. [Queues](#21-queues)  
+22. [Greedy Algorithms](#22-greedy-algorithms)  
+23. [Binary Trees](#23-binary-trees)  
+24. [Binary Search Trees (BST)](#24-binary-search-trees-bst)  
+25. [Heaps](#25-heaps)  
+26. [Hashing](#26-hashing)  
+27. [Tries](#27-tries)  
+28. [Graphs](#28-graphs)  
+
+---
+
+## 1. Introduction to Java
+
+Java is a high-level, object-oriented programming language developed by Sun Microsystems in 1995 (now owned by Oracle). Known for its platform independence, Java allows developers to "write once, run anywhere" through the use of the Java Virtual Machine (JVM). It is widely used for building everything from web and mobile applications to large-scale enterprise systems.
+
+---
+
+## 2. Flowcharts and Pseudocode
+
+Flowcharts and pseudocode are tools that help in visualizing and planning algorithms before coding. These are essential for understanding logic and problem-solving.
+
+---
+
+## 3. Variables and Data Types
+
+### 1. Variables in Java
+
+#### Definition:
+A variable is a container that holds data during the execution of a program. Each variable must be assigned a data type before it can be used. Variables store data that can be modified and reused later in the code.
+
+**Syntax:**
+```java
+dataType variableName = value;
+
 
 ## 1.Introduction to Java
 Java is a high-level, object-oriented programming language developed by Sun Microsystems in 1995 (now owned by Oracle). Known for its platform independence, Java allows developers to "write once, run anywhere" through the use of the Java Virtual Machine (JVM). It is widely used for building everything from web and mobile applications to large-scale enterprise systems.
