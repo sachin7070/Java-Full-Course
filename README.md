@@ -47,7 +47,7 @@ Flowcharts and pseudocode are tools that help in visualizing and planning algori
 
 ---
 
-## 3. Variables and Data Types ⛁
+## 3. Variables and Data Types 🗂️
 
 ### 1. Variables in Java
 
@@ -155,4 +155,144 @@ Example:
 ```java
 double x = 9.7;
 int y = (int) x; // double to int (manual casting)
+```
+
+## 4. Operators
+
+Operators in Java are special symbols or keywords used to perform operations on variables and values. They are essential for performing computations, making decisions, and manipulating data. Java supports several types of operators, which are categorized as follows:
+
+---
+
+### 1. Arithmetic Operators
+
+Arithmetic operators are used to perform basic mathematical operations.
+
+| Operator | Description        | Example          |
+|----------|--------------------|------------------|
+| `+`      | Addition           | `a + b`          |
+| `-`      | Subtraction        | `a - b`          |
+| `*`      | Multiplication     | `a * b`          |
+| `/`      | Division           | `a / b`          |
+| `%`      | Modulus (Remainder)| `a % b`          |
+
+**Example:**
+```java
+int a = 10, b = 3;
+System.out.println(a + b); // Output: 13
+System.out.println(a - b); // Output: 7
+System.out.println(a * b); // Output: 30
+System.out.println(a / b); // Output: 3
+System.out.println(a % b); // Output: 1
+```
+### 2. Relational (Comparison) Operators
+
+Relational operators are used to compare two values and return a boolean result (`true` or `false`).
+
+| Operator | Description                 | Example   |
+|----------|-----------------------------|-----------|
+| `==`     | Equal to                   | `a == b`  |
+| `!=`     | Not equal to               | `a != b`  |
+| `>`      | Greater than               | `a > b`   |
+| `<`      | Less than                  | `a < b`   |
+| `>=`     | Greater than or equal to   | `a >= b`  |
+| `<=`     | Less than or equal to      | `a <= b`  |
+
+### Example:
+```java
+int a = 10, b = 20;
+System.out.println(a == b); // Output: false
+System.out.println(a != b); // Output: true
+System.out.println(a > b);  // Output: false
+System.out.println(a < b);  // Output: true
+System.out.println(a >= b); // Output: false
+System.out.println(a <= b); // Output: true
+```
+### 3. Logical Operators
+
+Logical operators are used to combine multiple boolean expressions or conditions.
+
+| Operator | Description      | Example                   |
+|----------|------------------|---------------------------|
+| `&&`     | Logical AND      | `(a > b) && (a < c)`      |
+| `||`     | Logical OR       | `(a > b) || (a < c)`      |
+| `!`      | Logical NOT      | `!(a > b)`               |
+
+### Example:
+```java
+int a = 10, b = 20, c = 30;
+System.out.println((a > b) && (a < c)); // Output: false
+System.out.println((a > b) || (a < c)); // Output: true
+System.out.println(!(a > b));          // Output: true
+```
+## 4. Assignment Operators
+
+Assignment operators are used to assign values to variables.
+
+| Operator | Description        | Example                   |
+|----------|--------------------|---------------------------|
+| `=`      | Assign             | `a = b`                  |
+| `+=`     | Add and assign      | `a += b` (equivalent to `a = a + b`) |
+| `-=`     | Subtract and assign | `a -= b` (equivalent to `a = a - b`) |
+| `*=`     | Multiply and assign | `a *= b` (equivalent to `a = a * b`) |
+| `/=`     | Divide and assign   | `a /= b` (equivalent to `a = a / b`) |
+| `%=`     | Modulus and assign  | `a %= b` (equivalent to `a = a % b`) |
+
+### Example:
+```java
+int a = 10, b = 5;
+a += b; // a = a + b (a becomes 15)
+System.out.println(a);
+a -= b; // a = a - b (a becomes 10)
+System.out.println(a);
+a *= b; // a = a * b (a becomes 50)
+System.out.println(a);
+a /= b; // a = a / b (a becomes 10)
+System.out.println(a);
+a %= b; // a = a % b (a becomes 0)
+System.out.println(a);
+```
+## 5. Bitwise Operators
+
+Bitwise operators operate on bits and perform bit-by-bit operations.
+
+| Operator | Description            | Example       |
+|----------|------------------------|---------------|
+| `&`      | Bitwise AND            | `a & b`       |
+| `|`      | Bitwise OR             | `a | b`       |
+| `^`      | Bitwise XOR            | `a ^ b`       |
+| `~`      | Bitwise Complement     | `~a`          |
+| `<<`     | Left shift             | `a << 2`      |
+| `>>`     | Right shift            | `a >> 2`      |
+
+### Example:
+```java
+int a = 5, b = 3; // Binary: a = 0101, b = 0011
+System.out.println(a & b);  // Output: 1 (0101 & 0011 = 0001)
+System.out.println(a | b);  // Output: 7 (0101 | 0011 = 0111)
+System.out.println(a ^ b);  // Output: 6 (0101 ^ 0011 = 0110)
+System.out.println(~a);     // Output: -6 (inverts the bits of 5)
+System.out.println(a << 1); // Output: 10 (0101 << 1 = 1010)
+System.out.println(a >> 1); // Output: 2 (0101 >> 1 = 0010)
+```
+## 6. Unary Operators
+
+Unary operators operate on a single operand.
+
+| Operator | Description            | Example              |
+|----------|------------------------|----------------------|
+| `+`      | Positive               | `+a`                |
+| `-`      | Negative               | `-a`                |
+| `++`     | Increment              | `++a` or `a++`      |
+| `--`     | Decrement              | `--a` or `a--`      |
+| `!`      | Logical Complement     | `!a`                |
+
+### Example:
+```java
+int a = 5;
+System.out.println(+a);  // Output: 5
+System.out.println(-a);  // Output: -5
+System.out.println(++a); // Output: 6 (pre-increment: increments before use)
+System.out.println(a++); // Output: 6 (post-increment: increments after use)
+System.out.println(--a); // Output: 6 (pre-decrement: decrements before use)
+System.out.println(a--); // Output: 6 (post-decrement: decrements after use)
 ```
